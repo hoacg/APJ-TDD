@@ -24,7 +24,7 @@ class LibraryManagerTest {
         };
         Student student = new Student();
         BorrowOrder borrowOrder = libraryManager.borrowBooks(student, books);
-        assertNull(borrowOrder); // TODO: default return null --> this test case is passed.
+        assertNull(borrowOrder);
     }
 
     @Test
@@ -32,7 +32,7 @@ class LibraryManagerTest {
         Book[] books = {};
         Student student = new Student();
         BorrowOrder borrowOrder = libraryManager.borrowBooks(student, books);
-        assertNull(borrowOrder); // TODO: default return null --> this test case is passed.
+        assertNull(borrowOrder);
     }
 
     @Test
@@ -57,7 +57,7 @@ class LibraryManagerTest {
         };
         Student student = new Student();
         BorrowOrder borrowOrder = libraryManager.borrowBooks(student, books);
-        assertNull(borrowOrder); // TODO: default return null --> this test case is passed.
+        assertNull(borrowOrder);
     }
 
     @Test
